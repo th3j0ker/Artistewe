@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorArtistewe">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:id="@+id/ActivityStartupImageView"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/artistewe_white_emblem" />
+
+    <ProgressBar
+        android:id="@+id/actiityStartupprogressbar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="@color/colorWhite"
+        android:foregroundTint="@color/colorWhite"
+        android:indeterminateTint="@color/colorWhite" />
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/activityStartuptextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:text="Please Wait . . ."
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+</RelativeLayout>

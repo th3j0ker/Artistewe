@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Artistewe</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="sign_out">Sign out</string>
+    <string name="auth_failed">authentication failed, please try again...</string>
+
+    <!-- ..THESE ARE FOR FIREBASE UI COMPONENTS FACEBOOK AND TWITTER. -->
+    <string name="facebook_application_id" translatable="false">APP_ID</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fbAPP_ID</string>
+    <string name="twitter_consumer_key" translatable="false">YOURCONSUMERKEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOURCONSUMERSECRET</string>
+
+    <string name="camera_fragment_rafb">RFAB_IDENTIFICATION_CODE_FRAGMENT_A</string>
+    <string name="home_fragment_rafb">RFAB_IDENTIFICATION_CODE_FRAGMENT_B</string>
+    <string name="messenger_fragment_rafb">RFAB_IDENTIFICATION_CODE_FRAGMENT_C</string>
+
+</resources>

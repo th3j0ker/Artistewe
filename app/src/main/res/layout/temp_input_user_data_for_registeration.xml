@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/artwork"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@drawable/black_border_for_editexts"
+        android:layout_marginBottom="8dp">
+    <EditText
+        android:inputType="textCapWords|textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your firstname"
+        android:id="@+id/myFirstNameEditText"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@drawable/black_border_for_editexts"
+        android:layout_marginBottom="8dp">
+
+    <EditText
+        android:inputType="textCapWords|textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your lastname"
+        android:layout_below="@id/myFirstNameEditText"
+        android:id="@+id/myLastNameEditText"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@drawable/black_border_for_editexts"
+        android:layout_marginBottom="8dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age"
+        android:inputType="number"
+        android:layout_below="@id/myLastNameEditText"
+        android:id="@+id/myAgeEditText"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@drawable/black_border_for_editexts"
+        android:layout_marginBottom="8dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your profession"
+        android:layout_below="@id/myAgeEditText"
+        android:id="@+id/myProfesstionEditText"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@drawable/black_border_for_editexts"
+        android:layout_marginBottom="8dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your country name"
+        android:layout_below="@id/myProfesstionEditText"
+        android:id="@+id/myCountryEditText"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/myProfileImageSetterImageView"
+        android:layout_below="@id/myCountryEditText"
+        android:src="@drawable/ic_add_a_photo_white_100dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myProfileImageSetterImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="submit"
+        android:padding="20dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:background="@drawable/button_login_state_pressed"
+        android:id="@+id/mySubmitUserRegisterButton"/>
+
+</LinearLayout>
+</ScrollView>

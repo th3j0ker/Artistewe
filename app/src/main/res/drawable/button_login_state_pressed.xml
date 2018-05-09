@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/colorYellow">
+            </solid>
+            <stroke android:color="@color/colorBlack" android:width="2dp">
+            </stroke>
+            <corners android:radius="50dp">
+            </corners>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/colorWebsiteProfile">
+            </solid>
+            <stroke android:color="@color/colorGrey" android:width="2dp">
+            </stroke>
+            <corners android:radius="50dp">
+            </corners>
+        </shape>
+    </item>
+</selector>

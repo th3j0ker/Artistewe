@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/actproftv1"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="We're Sorry "/>
+    <TextView
+        android:id="@+id/actprotv2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/actproftv1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:text="to see you go :_( "/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:id="@+id/mySignOutFragmentButton"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorArtistewe"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/actprotv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign out anyway"/>
+</RelativeLayout>

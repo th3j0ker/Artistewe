@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "486742912428",
+    "firebase_url": "https://artistewe.firebaseio.com",
+    "project_id": "artistewe",
+    "storage_bucket": "artistewe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486742912428:android:a5669f763f19a637",
+        "android_client_info": {
+          "package_name": "com.typhon.studios.artistewe_prototype_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486742912428-o1h7076ld92srlc3uuu9cfdleu6akndj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.typhon.studios.artistewe_prototype_3",
+            "certificate_hash": "0c2258e1a7b3fc42fe2f53eed096d6f2a63381d1"
+          }
+        },
+        {
+          "client_id": "486742912428-6cudkm8jcrdlorjg6muvfva413t6fnlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIh9t9x5j8S06whrKihs_PHuSsVAa8MQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486742912428-6cudkm8jcrdlorjg6muvfva413t6fnlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

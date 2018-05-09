@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardUserNameTextView"
+            android:hint="Hardik macwan"
+            />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/cardNameTextview"
+            android:layout_below="@id/cardUserNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textIsSelectable="false"
+            android:hint="Post Title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_centerVertical="false"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/myPostPhotocard"
+            android:layout_below="@+id/cardNameTextview"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdvImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            fresco:placeholderImage="@drawable/myPlaceholderImage" />
+
+        <TextView
+            android:id="@+id/cardBodyTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cardNameTextview"
+            android:layout_alignLeft="@+id/cardNameTextview"
+            android:layout_below="@+id/myPostPhotocard"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textIsSelectable="false"
+            android:padding="10dp"
+            android:hint="this is a short post about nothing this means something "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardTimeTextView"
+            android:layout_alignParentEnd="true"
+            android:hint="12:23 24 tuesday 2222"
+            android:layout_below="@+id/cardBodyTextview"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

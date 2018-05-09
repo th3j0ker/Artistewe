@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myMainActivityLayout"
+    tools:context="com.typhon.studios.artistewe_prototype_3.Home.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottomNavigationRelativeLayout">
+
+        <!--toolbar-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbarRelativeLayout">
+            <include layout="@layout/layout_top_tabs"/>
+        </RelativeLayout>
+
+        <!--middle content or body-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/contentBodyRelativeLayout"
+            android:layout_below="@id/toolbarRelativeLayout">
+
+            <include layout="@layout/layout_center_viewpager" />
+
+        </RelativeLayout>
+
+        <com.wangjie.rapidfloatingactionbutton.rfabgroup.RapidFloatingActionButtonGroup
+            android:id="@+id/rfab_group_sample_activity_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="50dp"
+            >
+
+            <com.wangjie.rapidfloatingactionbutton.RapidFloatingActionButton
+                xmlns:rfab="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rfab_group_sample_rfab_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rfab:rfab_size="normal"
+                rfab:rfab_drawable="@drawable/rfab__drawable_rfab_default"
+                rfab:rfab_color_normal="@color/colorArtistewe"
+                rfab:rfab_color_pressed="@color/colorWebsiteProfile"
+                rfab:rfab_shadow_radius="7dp"
+                rfab:rfab_shadow_color="#999999"
+                rfab:rfab_shadow_dx="0dp"
+                rfab:rfab_shadow_dy="5dp"
+                rfab:rfab_identification_code="@string/camera_fragment_rafb"
+                />
+
+            <com.wangjie.rapidfloatingactionbutton.RapidFloatingActionButton
+                xmlns:rfab="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rfab_group_sample_rfab_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rfab:rfab_size="normal"
+                rfab:rfab_drawable="@drawable/ic_format_paint_white_30dp"
+                rfab:rfab_color_normal="@color/colorArtistewe"
+                rfab:rfab_color_pressed="@color/colorWebsiteProfile"
+                rfab:rfab_shadow_radius="7dp"
+                rfab:rfab_shadow_color="#999999"
+                rfab:rfab_shadow_dx="0dp"
+                rfab:rfab_shadow_dy="5dp"
+                rfab:rfab_identification_code="@string/home_fragment_rafb"
+                />
+
+            <com.wangjie.rapidfloatingactionbutton.RapidFloatingActionButton
+                xmlns:rfab="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rfab_group_sample_rfab_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rfab:rfab_size="normal"
+                rfab:rfab_drawable="@drawable/ic_forum_white_30dp"
+                rfab:rfab_color_normal="@color/colorArtistewe"
+                rfab:rfab_color_pressed="@color/colorWebsiteProfile"
+                rfab:rfab_shadow_radius="7dp"
+                rfab:rfab_shadow_color="#999999"
+                rfab:rfab_shadow_dx="0dp"
+                rfab:rfab_shadow_dy="5dp"
+                rfab:rfab_identification_code="@string/messenger_fragment_rafb"
+                />
+
+        </com.wangjie.rapidfloatingactionbutton.rfabgroup.RapidFloatingActionButtonGroup>
+
+        <!--bottom navigation-->
+        <include layout="@layout/layout_bottom_navigation_view"/>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

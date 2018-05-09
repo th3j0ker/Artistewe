@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#da676b</color>
+    <color name="colorPrimaryDark">#7b1919</color>
+    <color name="colorAccent">#b71d1d</color>
+    <color name="colorGrey">#d6d6d6</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorArtistewe">#bf0e17</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorYellow">#edf41f</color>
+    <color name="colorWebsiteProfile">#7b1919</color>
+    <color name="colorSecondary">#FFC107</color>
+    <color name="colorTransparent">#002C07FF</color>
+</resources>
