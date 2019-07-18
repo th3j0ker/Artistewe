@@ -9,3 +9,10 @@ It also includes an integerated messenger, As messengers are trending in such ap
 The project is still incomplete, and few of the dependencies have been considered obsolete, 
 however the application can run smoothly with minimal errors when made to run on default gradle provided in the project file itself.
 
+# Screensots
+
+![alt text](https://b.imge.to/2019/07/18/1Adk4.png)
+
+![alt text](https://b.imge.to/2019/07/18/1AleA.png)
+
+![alt text](https://b.imge.to/2019/07/18/1AkC2.png)
